@@ -44,7 +44,7 @@ img {
   display: flex;
   margin-top: 40px;
   text-decoration: none;
-  justify-content: center;
+  text-align: center;
 }
 
 .navigation-links a {
@@ -111,4 +111,36 @@ img {
   padding: 15px 20px;
   border-radius: 4px;
   box-shadow: var(--box-shadow);
+}
+
+.button-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .yoga-link {
+    display: block;
+    text-align: center;
+  }
 }
