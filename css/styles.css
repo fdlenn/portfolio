@@ -45,7 +45,6 @@ img {
   justify-content: center;
   margin-top: 40px;
 }
-
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
@@ -53,7 +52,6 @@ img {
   text-decoration: none;
   text-transform: capitalize;
 }
-
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -61,7 +59,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
 .contact-link:hover {
   text-decoration: none;
   color: var(--secondary-color);
@@ -105,15 +102,6 @@ img {
 .email-link:hover {
   text-decoration: underline;
   color: var(--secondary-color);
-}
-
-.primary-button {
-  background-color: var(--primary-color);
-  color: white;
-  text-decoration: none;
-  padding: 15px 20px;
-  border-radius: 4px;
-  box-shadow: var(--box-shadow);
 }
 
 .button-link {
