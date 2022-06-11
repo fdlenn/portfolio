@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 60px auto;
+  margin-top: 60px;
 }
 
 h1,
@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 96px;
 }
 
 h2 {
@@ -44,7 +44,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  text-decoration: none;
 }
 
 .navigation-links a {
@@ -143,7 +142,7 @@ img {
     font-size: 14px;
     text-align: center;
   }
-  .yoga-link {
+  .box-link {
     display: block;
     text-align: center;
   }
