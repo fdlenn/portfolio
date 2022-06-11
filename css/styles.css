@@ -3,9 +3,6 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  margin-top: 100px;
-}
 
 h1,
 h2,
@@ -39,6 +36,9 @@ img {
   max-width: 100%;
 }
 
+.navbar-brand {
+  margin-left: 30px;
+}
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -120,14 +120,16 @@ img {
   }
   h2 {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
   }
   h3 {
     font-size: 22px;
   }
+
   p {
     font-size: 14px;
-    text-align: center;
+    text-align: left;
   }
   .box-link {
     display: block;
